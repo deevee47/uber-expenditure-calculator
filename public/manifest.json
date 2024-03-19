@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Uber Expenditure Calculator",
+    "version": "1.0.0",
+    "description": "A extension which provides details of your Uber Account",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "https://*/*"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+  }
