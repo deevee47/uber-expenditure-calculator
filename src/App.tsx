@@ -10,7 +10,7 @@ function App() {
     chrome.scripting.executeScript({
       target: {tabId: tab.id! },
       func: () => {
-        fetch("https://jsonplaceholder.typicode.com/todos/1").then((response) => response).then((e) => e.json()).then((e) => console.log(e));
+        fetch("https://jsonplaceholder.typicode.com/todos/").then((response) => response).then((e) => e.json()).then((e) => console.log(e));
       }
     })
   };
